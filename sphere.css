@@ -1,0 +1,612 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', san-serif;
+}
+
+#navigation-Bar {
+  background-image: linear-gradient(90deg, gold 358px, rgb(2, 2, 48) 0%);
+  width: 100%;
+  height: 110px;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.sphere-Construction-Logo {
+  width: 361px;
+  height: 110px;
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#mobile-Menubar {
+  font-size: 32px;
+  display: none;
+}
+
+.navigation-Bar-Links {
+  width: 78%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 21px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+li a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+
+li a:hover {
+  color: gold;
+}
+
+.active {
+  color: white;
+}
+
+#gif-Image {
+  background-image: url(construction.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%
+}
+
+#gif-Image-Text {
+  margin: 0px;
+  font-size: 60px;
+  color: white;
+}
+
+.gif-Image-Text_alignment {
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+
+#arrow-Down {
+  font-size: 108px;
+  color: white;
+}
+
+.service-Heading {
+  text-align: -webkit-center;
+  margin-top: 50px;
+}
+
+#service-Text {
+  color: rgb(222, 218, 218);
+  margin: 0px;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.service-Text-Underline {
+  width: 125px;
+  height: 13px;
+  background-color: gold;
+  margin-top: 12px;
+}
+
+.about-Text-Underline {
+  width: 125px;
+  height: 13px;
+  background-color: gold;
+  margin-top: 12px;
+  margin-left: 189px;
+}
+
+.service-content {
+  background-color: white;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: 28% 28% 28%;
+  -ms-grid-column-align: center;
+  grid-column-gap: 15px;
+  justify-content: center;
+}
+
+.service-Content-FirstImage {
+  background-image: url(civil1.jpg);
+  background-repeat: no-repeat;
+  height: 230px;
+  background-size: cover;
+}
+
+.service-Content-SecondImage {
+  background-image: url(civil5.jpg);
+  background-repeat: no-repeat;
+  height: 230px;
+  background-size: cover;
+}
+
+.service-Content-thirdImage {
+  background-image: url(civil6.jpg);
+  background-repeat: no-repeat;
+  height: 230px;
+  background-size: cover;
+}
+
+.service-Content-Text {
+  padding: 21px;
+  font-size: 16px;
+}
+
+#about {
+  margin-top: 70px;
+  background-color: rgb(245, 244, 244);
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#about-Heading-Text {
+  padding: 30px;
+}
+
+.about-Text {
+  color: rgb(202, 196, 196);
+  margin: 0px;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-left: 191px;
+}
+
+.about-Text-Underline {
+  width: 125px;
+  height: 13px;
+  background-color: gold;
+  margin-top: 12px;
+  margin-left: 189px;
+}
+
+.about-Paragraph {
+  text-align: -webkit-left;
+  margin-top: 50px;
+  width: 87%;
+  padding-left: 190px;
+  font: normal normal normal 17px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+  color: #3B3A3A;
+}
+
+#about-Image {
+  background-image: url(aboutimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#records {
+  background-color: #efcd17;
+  width: 100%;
+  height: 190px;
+  display: grid;
+  grid-template-columns: 17% 1% 15% 2% 15% 1% 15%;
+  align-items: center;
+  justify-content: center;
+}
+
+.record-Heading-Text {
+  font-size: 65px;
+  color: white;
+  margin: 0px;
+}
+
+.record-Content-Text {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.record-Content-border {
+  background-color: white;
+  width: 2px;
+  height: 66px;
+}
+
+#project-Content-Images {
+  height: 100%;
+  width: 70%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 25px;
+}
+
+.project-Heading-Text {
+  color: rgb(202, 196, 196);
+  margin: 0px;
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.project-Text-Underline {
+  width: 125px;
+  height: 13px;
+  background-color: #f7d20f;
+  margin-top: 12px;
+  margin: auto;
+}
+
+.project-Images {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+img:hover {
+  opacity: 0.4;
+}
+
+#client-Heading-Text {
+  color: rgb(202, 196, 196);
+  font-size: 51px;
+  height: 138px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.client-Content-Text {
+  height: 126px;
+  color: rgb(112, 109, 113);
+  font-size: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.client-Paragraph{
+  width:30%;
+}
+#contact-Heading-Text {
+  font-size: 50px;
+  color: #cac4c4;
+  margin: 0px;
+  margin-top: 45px;
+  text-align: center;
+  height: 77px;
+}
+
+.contact-Text-Underline {
+  width: 125px;
+  height: 13px;
+  background-color: #f7d20f;
+  margin-top: 12px;
+  margin: auto;
+}
+
+#contact-Map {
+  background-image: url(contactmap.png);
+  background-size: cover;
+  height: 50%;
+  width: 65%;
+  margin: 50px auto;
+}
+
+#contact-Information {
+  width: 65%;
+  height: 607px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 60% 50%;
+}
+
+.contact_Text_padding {
+  padding: 10px;
+}
+
+input {
+  background-color: rgb(236, 235, 235);
+  width: 380px;
+  border: none;
+  padding: 12px;
+  margin: 7px;
+}
+
+.form-Message-container {
+  height: 100px;
+  width: 380px;
+  border: none;
+  background-color: rgb(236, 235, 235);
+  margin: 7px;
+  padding: 12px;
+}
+
+.form-content {
+  margin-top: 100px;
+  display: grid;
+}
+
+button {
+  background-color: rgb(92, 82, 82);
+  color: gold;
+  font-size: 19px;
+  width: 143px;
+  height: 42px;
+  border: none;
+  margin-left: 241px;
+}
+
+button:hover {
+  background-color: rgb(243, 210, 26);
+  color: rgb(92, 82, 82);
+}
+
+#contact-Information-Headoffice {
+  height: 213px;
+}
+
+#contact-Information-employment {
+  height: 190px;
+}
+
+.contact-Information-line {
+  width: 64px;
+  height: 13px;
+  background-color: #f7d20f;
+  margin-top: 12px;
+}
+
+footer {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icons {
+  background-color: rgb(177, 174, 174);
+  color: white;
+  font-size: 27px;
+  width: 39px;
+  height: 38px;
+  border-radius: 50%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#icon-alignment {
+  display: flex;
+}
+
+#fixed-Comment-circle {
+  background-color: #f7d20f;
+  width: 75px;
+  height: 75px;
+  font-size: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 17px;
+  right: 17px;
+}
+
+@media only screen and (max-width: 414px  ) {
+  #navigation-Bar {
+    background-image: linear-gradient(90deg, gold 100%, gold 0%);
+    height: 85px;
+    position: static;
+    top: 0px;
+    z-index: 999;
+  }
+  .navigation-Bar-Links {
+    display: none;
+  }
+  .sphere-Construction-Logo {
+    width: 100%;
+    height: 85px;
+    font-size: 24px;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #mobile-Menubar{
+    display: block;
+    margin-right: 10px;
+
+  }
+  #gif-Image-Text {
+    font-size: 30px;
+    width: 100%;
+  }
+  #arrow-Down {
+    font-size: 50px;
+  }
+  .service-Heading {
+    margin-top: 22px;
+  }
+  #service-Text {
+    margin: 0px;
+    font-size: 36px;
+  }
+  .service-Text-Underline {
+    width: 76px;
+    height: 9px;
+    margin-top: 5px;
+  }
+  .service-Content {
+    width: 93%;
+    height: auto;
+    margin: auto;
+    margin-top: 33px;
+    display: grid;
+    grid-template-columns: auto;
+    -ms-grid-column-align: center;
+    grid-row-gap: 15px;
+  }
+  #about {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .about-Text {
+    color: rgb(202, 196, 196);
+    margin: 0px;
+    font-size: 36px;
+    margin-left: 85px;
+  }
+  .about-Text-Underline {
+    width: 76px;
+    height: 9px;
+    background-color: gold;
+    margin-top: 5px;
+    margin-left: 103px;
+  }
+  .about-Paragraph {
+    text-align: left;
+    margin-top: 50px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  #about-Image {
+    background-image: url(aboutimg.jpg);
+    height: -webkit-fill-available;
+    background-size: cover;
+  }
+  #records {
+    grid-template-columns: auto auto;
+    grid-column-gap: 60px;
+    height: auto;
+    height: 250px;
+  }
+  .record-Content-border {
+    display: none;
+  }
+  .record-Heading-Text {
+    font-size: 38px;
+  }
+  .record-Content-Text {
+    font-size: 18px;
+  }
+  .project-Heading-Text {
+    font-size: 36px;
+    margin-top: 24px;
+  }
+  .project-Text-Underline {
+    width: 76px;
+    height: 9px;
+  }
+  .project-Images {
+    width: 100%;
+    height: 212px;
+  }
+  #project-Content-Images {
+    height: auto;
+    ;
+    width: 92%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 12px;
+  }
+  #client-Heading-Text {
+    color: rgb(202, 196, 196);
+    font-size: 36px;
+    height: 112px;
+  }
+  .client-Content-Text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 27px;
+    text-align: center
+  }
+  #contact-Heading-Text {
+    font-size: 36px;
+    color: #cac4c4;
+    margin: 0px;
+    margin-top: 15px;
+    text-align: center;
+    height: 46px;
+  }
+  .contact-Text-Underline {
+    width: 76px;
+    height: 9px;
+  }
+  #contact-Map {
+    height: 187px;
+    width: 100%;
+    margin: 22px auto;
+  }
+  #contact-Information {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+    font: normal normal normal 17px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+  }
+  .form-content {
+    margin-top: 34px;
+    display: grid;
+  }
+  input {
+    width: 93%;
+    padding: 12px;
+    margin: 5px;
+  }
+  .form-Message-container {
+    width: 93%;
+    margin: 5px;
+    padding: 11px;
+  }
+  button {
+    font-size: 18px;
+    width: 37%;
+    height: 38px;
+    margin-left: 57%;
+  }
+  #contact-Information-Headoffice {
+    height: 208px;
+  }
+  #contact-Information-employment {
+    height: 20%;
+  }
+  .contact-Information-line {
+    height: 8px;
+  }
+  footer {
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    margin-top: 42px;
+  }
+  #icon-alignment {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #fixed-Comment-circle {
+    width: 70px;
+    height: 70px;
+    font-size: 37px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+  }
+}

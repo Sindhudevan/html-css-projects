@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+
+#mainbox{
+    background-color: rgb(241, 234, 234);
+    width: 100%;  
+    
+}
+#top{
+    background-color: rgb(249, 247, 247);
+    height: 5%;
+    width: 100%;
+    padding: 5px;
+    color: rgb(132, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav{
+    height: 66px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menubar{
+    font-size: 30px;
+    padding: 7px;
+    display: none;
+}
+nav h3{
+    margin:10px; 
+    font-size: 23px;
+}
+
+.circle{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    background-image: linear-gradient(180deg,white 50%,blue 50%);
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{ 
+    font-size: 19px;
+    padding: 10px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(133, 124, 124);
+    padding: 23px 10px;
+}
+li a:hover{
+    background-color: rgb(37, 37, 187);
+    color: white;
+}
+.active{
+    background-color:  rgb(37, 37, 187);
+    color: white;
+}
+
+#banner{
+    background-image: url(developer03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75%;
+    position: relative;
+}
+#bgpara{
+    font-size: 46px;
+    color: white;
+    line-height: 63px;
+    position: absolute;
+    top: 44%;
+    left: 6%;
+}
+.abouticm{
+    background-color: white;
+    padding: 20px;
+}
+#firstpara{
+    text-align: center;
+    font-size: 42px;
+}   
+#secondpara{
+    text-align: left;
+    padding: 20px;
+    font-size: 19px;
+} 
+
+#flexbox{
+    background-color: rgb(243, 239, 239);
+    height: auto;
+    width: 100%;  
+      
+}
+.ourservice{
+    margin: 0px;
+    font-size: 44px;
+    text-align: -webkit-center;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.boxadjust{
+    display: flex;
+    margin: 20px;
+}
+.macrobox{
+    background-color: white;
+    width: 375px;
+    height: 184px;
+    padding: 13px;
+}
+.microbox{
+    background-color: rgb(26, 26, 148);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skill{
+    display: flex;
+    height: auto;
+    margin: 10px;
+}
+.ourh3{
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+}
+.bar1{
+    width: 85%;
+    height: 16px;
+    background-color:rgb(14, 14, 156); 
+}
+.bar2{
+    width: 95%;
+    height: 16px;
+    background-color: rgb(14, 14, 156); 
+}
+.bar3{
+    width: 91%;
+    height: 16px;
+    background-color: rgb(14, 14, 156); 
+}
+.bar4{
+    width: 78%;
+    height: 16px;
+    background-color:rgb(14, 14, 156); 
+}
+.display1{
+  width: 50%;
+}
+.clienth4{
+    font-size:15px; 
+    margin-left:40px;
+}
+#ourfeatures{
+    background-image: url(executive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 585px;
+}
+.style{
+    color: white;
+    font-size: 45px;
+    height: 100px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featurescontent{
+    background-color: white;
+    padding: 16px 25px;
+    width: 545px;
+    height: 200px;
+}
+.display2{
+    height: 358px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-color: white;
+    width: 100%;
+    height: 280px;
+}
+.display3{
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 176px;
+    height: 83px;
+}
+.display4{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact{
+    background-image: url(mount.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+    color: white;
+    opacity: 0.8;
+}
+#information{
+    font-size: 37px;
+    margin: 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    margin: 0px;
+}
+input{
+    height: 33px;
+    display: block;
+    width: 250px;
+}
+textarea{
+    display: block;
+    width: 522px;
+    height: 157px;
+}
+#contentalign{
+   display: flex;
+   justify-content: space-between;
+   padding:24px;
+}
+.address{
+    margin-top: 46px;
+}
+#formalign{
+    display:flex;
+     justify-content: space-between;
+}
+#emargin{
+    margin-top: 5px;
+}
+.submit{
+    background-color: white;
+    text-align: center;
+    width:150px; 
+    height: 30px;
+    float:right;   
+    border: 0px;  
+}
+#map{
+    background-image: url(map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+footer{
+    background-color: rgb(63, 63, 221);
+    width: 100%;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footicon{
+    width: 200px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 360px) {
+      #mainbox{
+          width: 100%;
+
+  }
+      /*nav bar*/
+       nav h3{
+         margin: 11px;
+         font-size: 24px; 
+        }
+        ul {
+            display: none;
+            padding: 0px;
+        }
+        li :hover{
+            background-color: rgb(37, 37, 187);
+            color: white;
+        }
+       #menubar{
+           display: block;
+       }
+
+       
+       /*banner image*/
+       #banner{
+           width:100%;
+       }
+      #bgpara{
+        font-size: 22px;
+        color: white;
+        line-height: unset;
+        position: absolute;
+        top: 55%;
+        left: 4%;
+       }
+      /*abouticm content*/
+        #firstpara{
+            font-size: 30px;
+        }
+        #secondpara{
+            padding: 5px;
+        }
+        /*flexbox*/
+        .ourservice{
+            font-size: 30px;
+            height:60px;
+        }
+        .macrobox{
+            width: 250px;
+            height: 159px;
+            padding: 12px;
+        }
+        .microbox{
+            width: 68px;
+            height: 58px;
+        }
+        /*ourskills*/
+        #skill{
+            display: block;
+        }
+        .display1 {
+            width: 100%;
+            margin-top: 22px;
+        }
+        .ourh3 {
+            font-size: 30px;
+        }
+        .bar1{
+            width: 286px;
+        }
+        .bar2{
+            width: 326px;
+        }
+        .bar3{
+            width: 310px;
+        }
+        .bar4{
+            width: 233px;
+        }
+        .clienth4{
+            margin-left: 20px;
+        }
+        /*our features*/
+        .display2{
+            height: 0px;
+            display: block;
+        }
+        .ourfeatures{
+            height: ;
+        }
+        .featurescontent{
+            width: 90%;
+            margin: 22px auto;
+            height: 210px;
+            padding: 10px;
+        }
+        .style{
+            font-size: 35px;
+        }
+        .featurescontent h2{
+            margin: 0px;
+        }
+          /*logo*/
+        .logo{
+            height: auto;
+        }
+        .display3{
+            height: 90px;
+            font-size: 18px;
+        }
+        .display4{
+            height: auto;
+            display: grid;
+        }
+        /* contact information*/
+        #information{
+            font-size: 30px;
+        }
+        #contentalign{
+            display: block;
+            width: 347px;
+        }
+        input {
+            height: 33px;
+            display: block;
+            width: 302px;
+        }
+        #formalign{
+            display: block;
+        }
+        textarea{
+            width: 300px;
+            height: 125px;
+        }
+        .submit{
+            width: 128px;
+            height: 24px;
+        }    
+        #map{
+            height: 183px;
+        }
+        footer{
+            display: block;
+        }
+        #footerfont {
+            font-size: 16px;
+            color: white;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .footicon {
+             width: 100%;
+            font-size: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+      
+
+
+
+}
+
+
+
+
+
+
+
+
+

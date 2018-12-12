@@ -1,0 +1,26 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container01{
+    background-color: rgb(250, 190, 200);
+    width: 12%;
+    height: 98%;
+    margin: 10px;
+    float: left;
+}
+.float{
+    float: right;
+}
+
+
+.container02{
+    background-color: rgb(250, 190, 200);
+    width: 70%;
+    height: 48%; 
+    margin: 11px auto; 
+    
+}

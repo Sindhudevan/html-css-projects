@@ -1,0 +1,43 @@
+header{
+background-color:black;
+color: whitesmoke;
+font-size: 50px;
+margin: 0; 
+padding-top:40px;
+padding-left: 50px;
+height: 200px; 
+}
+ ul li{
+font-size: 20px;
+text-decoration: none;
+list-style-type: none;
+margin-top: 80px; 
+padding: 30px;
+}
+a:hover{s
+    
+    background-color: rgb(230, 214, 214);
+    color: blue;
+   
+}
+a:visited{
+    color: red;
+}
+h1 {
+  color: black;
+  font-size: 70px;
+  margin: 70px;
+  text-decoration: underline;
+  
+}
+li:hover{
+    background-color: rgb(230, 214, 214);
+    text-decoration: transparent;
+  
+}
+body{
+
+    background-image: url("pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

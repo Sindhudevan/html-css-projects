@@ -1,0 +1,39 @@
+.mainbox{
+    margin: 5px;
+    width: 100%;
+    height: 711px;
+    border: 3px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   
+}
+
+.box1{
+    background-color: black;
+    width :50px;
+    height: 150px;
+    margin: 10px;
+    
+}
+.box2{
+    background-color: red;
+    width :150px;
+    height: 150px;
+    margin: 10px;
+}
+.icon{
+    position: relative;
+    
+}
+.box3{
+    background-color: green;
+    width :160px;
+    height: 160px;
+    margin: 10px;
+}
+.box4{
+    background-color: blue;
+    width :160px;
+    height: 160px;
+    margin: 10px;
+}

@@ -1,0 +1,20 @@
+body{
+    height: 98%;
+    width: 99%;
+    background-image: linear-gradient(154deg, blue 50%, white 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    background-color: grey;
+    height: 174px;
+    width: 355px;
+}
+
+
+.middle{
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    box-shadow: 6px 6px 19px black;

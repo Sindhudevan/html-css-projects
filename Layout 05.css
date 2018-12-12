@@ -1,0 +1,54 @@
+body{
+    margin: 8px;
+}
+*{
+    box-sizing: border-box;
+}
+#headertext{
+    color: rgb(255, 251, 0);
+    width: 100%;
+    height: 25%;
+    padding: 0px 45px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    background-color: black;
+    list-style-type: none;
+    margin-top: 5px;
+   display: flex;
+    height: 60px;
+}
+li{ 
+    padding: 16px;
+    border-right: 2px solid white;
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+ #welcome{
+   width: 93%;
+   margin-left: 50px;
+    
+ }     
+ #heading{
+         width: 98%;
+        position: relative;
+        top: 90px;
+        left: 10px;
+ }
+
+
+   
+
+
+
+

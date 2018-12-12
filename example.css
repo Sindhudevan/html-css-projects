@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.container01{
+    background-color: rgb(245, 173, 185);
+    width: 15%;
+    height: 98%;
+    float: left;
+
+
+}
+
+.float{
+    float: right;
+}
+.container02{
+    background-color: rgb(245, 173, 185);
+    width: 68%;
+    height: 48%;
+    margin: 10px auto;
+
+
+}
+div.container02:hover{
+    background-color: rgb(173, 71, 88);
+}

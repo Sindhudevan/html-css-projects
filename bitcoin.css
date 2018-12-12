@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(212, 239, 248);
+}
+#bitcoin{
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+#sidebar{
+    height: 100%;
+    width: 16%;
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidebar-Heading{
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-Menulist{
+    width:80%;
+    margin: auto;
+}
+#dropdown-Menu{
+    display: none;
+}
+.sidebar-list-Align:hover + #dropdown-Menu{
+    display: block
+}
+.sidebar-Listname-Align{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.sidebar-list-Align{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar-unarrowList-align{
+    color:white; 
+    margin-left: 66px; 
+    height:32px ;
+}
+#navigation-Bar{
+    background-color:white;
+    border-bottom: 2px solid #dedcdc;
+    display: flex;
+    justify-content: space-between;
+}
+#main-Content{
+    display: grid;
+    width: 84%;
+    row-gap: 40px;
+}
+input[type="text"]{
+    border-radius: 40px;
+    border: none;
+    background-color: #f5f2f2;
+    width: 310px;
+    height: 38px;
+    padding: 10px;
+}
+.searchbar{
+    width: 475px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navigation-Icon{
+    width: 190px;
+    height: flex;
+    height: 70px;
+    color: #a9a7a7;
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.notification-mail{
+    background-color: navy;
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 121px;
+}
+.notification-bell{
+    background-color: navy;
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    left: 69px;
+}   
+#dashboard-Bar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-content{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#profile-Image{
+    background-color: rgb(24, 79, 163);
+    width: 200px;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    border-radius: 50%;
+}
+#bitcoin-value{    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 30px;
+   
+}
+.bitcoin-Value-Card{
+    background-color: white;
+    height: 210px;
+    position: relative;
+}
+.bitcoin-Value-Card-logo{
+    background-color: blue;
+    width: 70px;
+    height: 70px;
+    border-bottom-right-radius: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+}
+.bitcoin-Value-Card-Text{
+    width: 252px;
+    font-size: 18px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+#overview-Distribution{
+    display: grid;
+    grid-template-columns: 66% 26%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 290px;
+}
+.overview-Card{
+    background-color: white;
+    height: 100%;
+    padding: 10px;
+
+}
+.button-Scroll{
+    height: 20px;
+    overflow-y: scroll;
+}
+.coin-Distribution-Card{
+    background-color: white;
+    height: 100%;
+    padding: 10px;
+}
+.overview-Card-Text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#market-Value-Section{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+.market-Value-card{
+    background-color: white;
+    width: 95%;
+    height: auto;
+    padding: 10px;
+}
+.market-Value-Text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.market-View-Button{
+    margin: 0;
+    overflow-y: scroll;
+}
+.market-Value-Rating01{
+    background-color: #dedcdc;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.market-Value-Rating02{
+    background-color: #dedcdc;
+    height: 50px;
+}
+.Ratingcard-Text{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rating-Name-logo{
+    width: 100px;
+    padding-left: 15px; 
+}
+.rating-Name{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.rating-Name-bitcoin{
+    width: 450px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-around;
+}
